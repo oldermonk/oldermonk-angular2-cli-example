@@ -1,0 +1,45 @@
+.userlist {
+    list-style-type: none;
+    padding-left: 0px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.userlist li {
+    width: 420px;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.delete {
+    margin-left: 10px;
+    color: wheat;
+    display: none;
+}
+
+.delete:hover {
+    cursor: pointer;
+    color: darkred;
+}
+
+.edit {
+    margin-left: 10px;
+    color: wheat;
+    display: none;
+}
+
+.edit:hover {
+    cursor: pointer;
+    color: forestgreen;
+}
+
+.active {
+    display: inline;
+    float: right;
+}

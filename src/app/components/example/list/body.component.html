@@ -1,0 +1,9 @@
+<ul class="userlist">
+  <li  *ngFor="let user of userList | async">
+    <input type="radio" name="user" value={{user.id}} (click)="selectUser(user)" />
+    {{user.name}}, {{user.company}}, {{user.place}}
+    <span class="delete" [ngClass]="{active: user.id === selectedUser.id}">
+      <i class="fa fa-trash"></i></span>
+    <span class="edit" [ngClass]="{active: user.id === selectedUser.id}">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></li>
+</ul>

@@ -1,0 +1,6 @@
+<div class="buttonlist">
+    <button routerLink=""><i class="fa fa-home"></i></button>
+    <button routerLink="list" (click)="onClick($event)" [ngClass]="{clicked: currentTab === 'List'}" value="List">List</button>
+    <button routerLink="add" (click)="onClick($event)" [ngClass]="{clicked: currentTab === 'New'}" value="New">New</button>
+</div>
+<router-outlet></router-outlet>

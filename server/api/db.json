@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "jithin",
+      "company": "tavant",
+      "place": "bengaluru"
+    },
+    {
+      "id": "2",
+      "name": "akshay",
+      "company": "egain",
+      "place": "pune"
+    },
+    {
+      "id": "3",
+      "name": "ambuk",
+      "company": "amadeus",
+      "place": "bengaluru"
+    },
+    {
+      "id": "4",
+      "name": "jamal",
+      "company": "musigma",
+      "place": "bengaluru"
+    },
+    {
+      "id": "5",
+      "name": "kadal",
+      "company": "dquotient",
+      "place": "bengaluru"
+    }
+  ]
+}

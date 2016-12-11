@@ -1,0 +1,32 @@
+*{
+    margin-left: 25px;
+    font-family: monospace;
+}
+
+.topic-list {
+    list-style-type: malayalam;
+}
+
+.topic-list a {
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.topic-list a:hover {
+    color: forestgreen;
+}
+
+button.home {
+    border:none;
+    outline: none;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button.home:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}

@@ -1,0 +1,36 @@
+
+.buttonlist {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+button {
+    padding: 0px;
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: darkcyan;
+    font-size: 15px;
+    font-family: monospace;
+    border: aliceblue;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+button.clicked {
+    background-color: lightcoral;
+    cursor: default;
+}
+
+button:focus {
+    outline: none;
+}
+
+h1 {
+    font-family: monospace;
+    margin-left: 21px;
+}
